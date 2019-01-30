@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./WebRTC Streamer_files/request.min.js"></script>
+<script src="./WebRTC Streamer_files/adapter.min.js"></script>
+<script src="./WebRTC Streamer_files/webrtcstreamer.json"></script>
+<script src="./WebRTC Streamer_files/webrtcstreamer.js"></script>
+</head>
+
+    <script>        
+        var webRtcServer      = new WebRtcStreamer("video",location.protocol+"//"+window.location.hostname+":8000");
+        window.onload         = function() { webRtcServer.connect("rtsp://raspberrypi.local:8000/unicast") }
+        window.onbeforeunload = function() { webRtcServer.disconnect() }
+    </script>
+    </head>
+    <body> 
+        <video id="video" />
+
+
+</body>
+</html>

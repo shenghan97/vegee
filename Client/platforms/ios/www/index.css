@@ -1,0 +1,1127 @@
+@font-face {
+    font-family: "DINAlternate-Bold";
+    src: url('https://anima-uploads.s3.amazonaws.com/5c308587e6b3a4000935be5e/5c383bbf6f121f000dfa5056/5c458e17702c36000b7244cf/fonts/DIN Alternate Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "SFProDisplay-Regular";
+    src: url('https://anima-uploads.s3.amazonaws.com/5c308587e6b3a4000935be5e/5c383bbf6f121f000dfa5056/5c458e17702c36000b7244cf/fonts/SF-Pro-Display-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFProDisplay-Medium";
+    src: url('https://anima-uploads.s3.amazonaws.com/5c308587e6b3a4000935be5e/5c383bbf6f121f000dfa5056/5c458e17702c36000b7244cf/fonts/SF-Pro-Display-Medium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFProText-Semibold";
+    src: url('https://anima-uploads.s3.amazonaws.com/5c308587e6b3a4000935be5e/5c383bbf6f121f000dfa5056/5c458e17702c36000b7244cf/fonts/SF-Pro-Text-Semibold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "SFProText-Regular";
+    src: url('https://anima-uploads.s3.amazonaws.com/5c308587e6b3a4000935be5e/5c383bbf6f121f000dfa5056/5c458e17702c36000b7244cf/fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+
+
+
+html,body{
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none
+}
+
+div {
+    -webkit-text-size-adjust: none
+}
+
+.anima-full-width-a {
+    width: 100%
+}
+
+.anima-full-height-a {
+    height: 100%
+}
+
+div {
+    -webkit-text-size-adjust: none
+}
+
+ .container {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 736px;
+    pointer-events: auto;
+    width: 414px;
+    position: relative;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    min-width: 414px;
+    min-height: 736px;
+}
+
+
+ .container .rectangle {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 736px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    object-fit: cover
+}
+
+ .container .rectangle1 {
+    background-color: rgba(0, 0, 0, 1.0);
+    height: 736px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: .17
+}
+
+ .container .smallcard {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 29px;
+    top: 278px;
+    margin: 0;
+    left: 150px;
+    width: 53px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard .rectanglecopy2 {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 26px;
+    top: 1px;
+    margin: 0;
+    left: 27px;
+    width: 26px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard .a78 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 6px;
+    margin: 0;
+    left: 30px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 14.4px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    letter-spacing: -.49px;
+    line-height: 17.0px
+}
+
+ .container .smallcard .n12 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 7px;
+    margin: 0;
+    left: 2px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 13.2px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    letter-spacing: -.45px;
+    line-height: 15.0px
+}
+
+ .container .smallcard .path {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 6px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 6px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard .pathcopy {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 7px;
+    top: 22px;
+    margin: 0;
+    left: 0;
+    width: 6px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard .rectangle2 {
+    background-color: rgba(215, 215, 215, 1.0);
+    height: 26px;
+    top: 1px;
+    margin: 0;
+    left: 1px;
+    width: 26px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: .5
+}
+
+ .container .smallcard1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 29px;
+    top: 413px;
+    margin: 0;
+    left: 80px;
+    width: 53px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard1 .rectanglecopy2 {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 26px;
+    top: 1px;
+    margin: 0;
+    left: 27px;
+    width: 26px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard1 .a78 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 6px;
+    margin: 0;
+    left: 30px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 14.4px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    letter-spacing: -.49px;
+    line-height: 17.0px
+}
+
+ .container .smallcard1 .n12 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 7px;
+    margin: 0;
+    left: 2px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 13.2px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    letter-spacing: -.45px;
+    line-height: 15.0px
+}
+
+ .container .smallcard1 .path {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 6px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 6px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard1 .pathcopy {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 7px;
+    top: 22px;
+    margin: 0;
+    left: 0;
+    width: 6px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard1 .rectangle2 {
+    background-color: rgba(215, 215, 215, 1.0);
+    height: 26px;
+    top: 1px;
+    margin: 0;
+    left: 1px;
+    width: 26px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: .5
+}
+
+ .container .smallcard2 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 29px;
+    top: 278px;
+    margin: 0;
+    left: 258px;
+    width: 53px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard2 .rectanglecopy2 {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 26px;
+    top: 1px;
+    margin: 0;
+    left: 27px;
+    width: 26px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard2 .a78 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 6px;
+    margin: 0;
+    left: 30px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 14.4px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: center;
+    letter-spacing: -.49px;
+    line-height: 17.0px
+}
+
+ .container .smallcard2 .n12 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 7px;
+    margin: 0;
+    left: 2px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 13.2px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    letter-spacing: -.45px;
+    line-height: 15.0px
+}
+
+ .container .smallcard2 .path {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 6px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 6px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard2 .pathcopy {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 7px;
+    top: 22px;
+    margin: 0;
+    left: 0;
+    width: 6px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .smallcard2 .rectangle2 {
+    background-color: rgba(215, 215, 215, 1.0);
+    height: 26px;
+    top: 1px;
+    margin: 0;
+    left: 1px;
+    width: 26px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: .5
+}
+
+ .container .rectanglecopy {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 75px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .tab {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 73px;
+    top: 663px;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .tab .rectangle2 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 73px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 413px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .tab .line {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 3px;
+    top: 13px;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .tab .line2 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 44px;
+    top: 22px;
+    margin: 0;
+    left: 107px;
+    width: 1px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .tab .line4 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 45px;
+    top: 21px;
+    margin: 0;
+    left: 310px;
+    width: 1px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .tab .line3 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 44px;
+    top: 21px;
+    margin: 0;
+    left: 207px;
+    width: 2px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .tab .monitor {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 37px;
+    margin: 0;
+    left: 36px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, serif;
+    font-size: 12.0px;
+    color: rgba(232, 232, 227, 1.0);
+    text-align: center;
+    line-height: 14.0px
+}
+
+ .container .tab .tradecenter {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 29px;
+    margin: 0;
+    left: 141px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, serif;
+    font-size: 12.0px;
+    color: rgba(232, 232, 227, 1.0);
+    text-align: center;
+    line-height: 14.0px
+}
+
+ .container .tab .ranking {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 37px;
+    margin: 0;
+    left: 238px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, serif;
+    font-size: 12.0px;
+    color: rgba(232, 232, 227, 1.0);
+    text-align: center;
+    line-height: 14.0px
+}
+
+ .container .tab .myaccount {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 29px;
+    margin: 0;
+    left: 337px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, serif;
+    font-size: 12.0px;
+    color: rgba(232, 232, 227, 1.0);
+    text-align: center;
+    line-height: 14.0px
+}
+
+
+
+ .container .card {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 197px;
+    top: 400px;
+    margin: 0;
+    left: 200px;
+    width: 90px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: scale(1);
+    transition: transform 0.05s ease-out;
+}
+
+.tapped{
+    
+
+    transform: scale(0.97) !important;
+}
+
+
+
+
+ .container .card .cardbackgournd {
+    background-color: rgba(216, 216, 216, 0.6);
+    height: 190px;
+    top: 8px;
+    margin: 0;
+    left: 8px;
+    width: 74px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .card .rectangle2 {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 8px;
+    top: 189px;
+    margin: 0;
+    left: 8px;
+    width: 74px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .card .banner {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 41px;
+    top: 56px;
+    margin: 0;
+    left: 3px;
+    width: 83px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .card .banner .rectangle3 {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 41px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 83px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .card .banner .a93 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 11px;
+    margin: 0;
+    left: 24px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 24.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 28.0px
+}
+
+ .container .card .banner .maturity {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 2px;
+    margin: 0;
+    left: 25px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 10.0px;
+    color: rgba(155, 154, 155, 1.0);
+    text-align: left;
+    line-height: 11.0px
+}
+
+ .container .card .loremipsum {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 103px;
+    margin: 0;
+    left: 16px;
+    width: 63px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, serif;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+
+}
+
+ .container .card .n03 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 14px;
+    margin: 0;
+    left: 19px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'DINAlternate-Bold', Helvetica, Arial, serif;
+    font-size: 32.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 37.0px
+}
+
+ .container .card .details {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 7px;
+    top: 189px;
+    margin: 0;
+    left: 34px;
+    width: 19px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .card .details .details1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProDisplay-Medium', Helvetica, Arial, serif;
+    font-size: 6.0px;
+    color: rgba(0, 0, 0, 1.0);
+    text-align: left;
+    line-height: 7.0px
+}
+
+ .container .card .details .triangle {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 2px;
+    top: 3px;
+    margin: 0;
+    left: 21px;
+    width: 2px;
+    position: absolute;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+ .container .card .connerr {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 16px;
+    top: 0;
+    margin: 0;
+    left: 74px;
+    width: 16px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .card .connerl {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 16px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 16px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 64px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: .61
+}
+
+ .container .barsnavigationnavigationbar .right {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 6px;
+    top: 32px;
+    margin: 0;
+    left: 376px;
+    width: 20px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .right .right1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 6px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 20px;
+    position: relative;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .center {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 20px;
+    top: 32px;
+    margin: 0;
+    left: 176px;
+    width: 63px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .center .titlelabel {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 0;
+    margin: 0;
+    left: -1px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProText-Semibold', Helvetica, Arial, serif;
+    font-size: 17.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    letter-spacing: -.41px;
+    line-height: 20.0px
+}
+
+ .container .barsnavigationnavigationbar .statusbar {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 20px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    overflow: hidden;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .background {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 20px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 414px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 15px;
+    top: 3px;
+    margin: 0;
+    left: 337px;
+    width: 72px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright .battery {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 15px;
+    top: 0;
+    margin: 0;
+    left: 9px;
+    width: 63px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright .battery .battery1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 12px;
+    top: 1px;
+    margin: 0;
+    left: 36px;
+    width: 27px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright .battery .battery1 .border {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 12px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 24px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: .4
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright .battery .battery1 .nub {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 4px;
+    top: 5px;
+    margin: 0;
+    left: 25px;
+    width: 2px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: .4
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright .battery .battery1 .charge {
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 8px;
+    top: 3px;
+    margin: 0;
+    left: 2px;
+    width: 20px;
+    position: absolute;
+    border-radius: 0;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright .battery .a100 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 1px;
+    margin: 0;
+    left: -2px;
+    width: 33px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProText-Regular', Helvetica, Arial, serif;
+    font-size: 12.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: right;
+    line-height: 14.0px
+}
+
+ .container .barsnavigationnavigationbar .statusbar .pinright .bluetooth {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 12px;
+    top: 1px;
+    margin: 0;
+    left: 0;
+    width: 7px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .time {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 4px;
+    margin: 0;
+    left: 182px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProText-Semibold', Helvetica, Arial, serif;
+    font-size: 12.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: center;
+    line-height: 14.0px
+}
+
+ .container .barsnavigationnavigationbar .statusbar .signal {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 20px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 139px;
+    position: absolute;
+    overflow: hidden;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .signal .background1 {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 20px;
+    top: 0;
+    margin: 0;
+    left: 0;
+    width: 139px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .signal .carrier {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    top: 4px;
+    margin: 0;
+    left: 26px;
+    width: auto;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'SFProText-Regular', Helvetica, Arial, serif;
+    font-size: 12.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 14.0px
+}
+
+ .container .barsnavigationnavigationbar .statusbar .signal .mobilesignal {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 10px;
+    top: 5px;
+    margin: 0;
+    left: 6px;
+    width: 17px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+ .container .barsnavigationnavigationbar .statusbar .signal .wifi {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: 10px;
+    top: 5px;
+    margin: 0;
+    left: 71px;
+    width: 14px;
+    position: absolute;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0)
+}
+
+
+@-webkit-keyframes anima-reveal {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes anima-reveal {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-o-keyframes anima-reveal {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes anima-reveal {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}

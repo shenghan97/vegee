@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)file:///Users/shawn/pytest/test1/app/near.html -->
+<html class="gr__shy-dream-6880_animaapp_io">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,viewport-fit=cover">
+	<meta name="author" content="Launchpad by Anima">
+	<link rel="stylesheet" href="./near.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="./near_files/jquery.min.js"></script>
+</head>
+
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+<script src="WebRTC Streamer_files/request.min.js"></script>
+<script src="WebRTC Streamer_files/adapter.min.js"></script>
+<script src="WebRTC Streamer_files/webrtcstreamer.json"></script>
+<script src="WebRTC Streamer_files/webrtcstreamer.js"></script>
+<script>
+	var webRtcServer = new WebRtcStreamer("video", "http://raspberrypi.local:8000");
+	var url = {
+		video: "mmalservice161",
+		audio: ""
+	};
+	var options = webrtcConfig.options;
+
+	window.onload = function () {
+		console.log(url.video);
+		webRtcServer.connect(url.video, url.audio, options);
+
+	}
+
+</script>
+
+
+<body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);" data-gr-c-s-loaded="true">
+	<div style="width: 414px; height: 100%; position:relative; margin:auto;">
+		<div class="container">
+			<!-- <img class="bitmap" src="./near_files/near-bitmap.png"> -->
+			<div id=blur style='filter: blur(10px);transition: filter 0.4s'>
+				<div class="rectangle" style="z-index:-1">
+					<video id='video' playsinline style="z-index:-10"></video>
+				</div>
+				<img id='screenshot' src='screenshot.png' style="z-index:10"/>
+			</div>
+			
+
+			<div class="group" style=" z-index: 100;">
+				<div class="group6">
+					<div class="rectangle3"></div>
+					<div class="rectangle1"></div><img class="pesticide" src="./near_files/near-pesticide@2x.png">
+					<div class="clickable" onclick='put("water")'>
+						<div class="rectangle2"></div>
+						<div class="apply">Apply</div>
+					</div>
+
+					<div class="a3275">×5</div>
+					<div class="pesticide1">Pesticide</div>
+				</div>
+				<div class="group6copy3">
+					<div class="rectangle3"></div>
+					<div class="rectangle1"></div><img class="seeds" src="./near_files/near-seeds@2x.png">
+					<div class="clickable" onclick='put("water")'>
+						<div class="rectangle2"></div>
+						<div class="apply">Apply</div>
+					</div>
+					<div class="a3273">×3</div>
+					<div class="fertilizer">Fertilizer</div>
+				</div>
+				<div class="group6copy">
+					<div class="rectangle3"></div>
+					<div class="rectangle1"></div><img class="drop" src="./near_files/near-drop@2x.png">
+					<div class="clickable" onclick='put("water")'>
+
+						<div class="rectangle2"></div>
+						<div class="apply">Apply</div>
+					</div>
+					<div class="a327u221e">×∞</div>
+					<div class="water">Water</div>
+				</div>
+				<div class="group6copy2">
+					<div class="rectangle3"></div>
+					<div class="rectangle1"></div><img class="scissors" src="./near_files/near-scissors@2x.png">
+					<div class="clickable">
+
+						<div class="rectangle2"></div>
+						<div class="apply">Apply</div>
+					</div>
+					<div class="a3271">×1</div>
+					<div class="trim">Trim</div>
+				</div>
+			</div><img class="rectanglecopy" style="z-index:1" src="./near_files/iphone-8-plus-rectangle-copy.png">
+			<div class="barsnavigationnavigationbar">
+				<div class="right"><img class="right1" src="./near_files/iphone-8-plus-right@2x.png"></div>
+				<div class="center">
+					<div class="titlelabel">Monitor</div>
+				</div>
+
+			</div>
+			<div class="orchd">
+				<div class="rectangle3"></div>
+				<div class="rectangle1"></div>
+				<div class="orchid01">Orchid 01</div>
+				<div class="rectangle2"></div>
+				<div class="takephoto">Take Photo</div>
+				<div class="sow">Sow</div>
+				<div class="a20180103">2018.01.03</div>
+				<div class="a20180202">2018.02.02</div>
+				<div class="growth">Growth</div>
+				<div class="pests">Pests</div>
+				<div class="moisture">Moisture</div>
+				<div class="temperature">Temperature</div>
+				<div class="lasttrim">Last trim</div>
+				<div class="group4">
+					<div class="rectanglecopy3"></div>
+					<div class="rectangle4"></div>
+				</div>
+				<div class="group4copy">
+					<div class="rectanglecopy3"></div>
+					<div class="rectangle4"></div>
+				</div>
+				<div class="group4copy2">
+					<div class="rectanglecopy3"></div>
+					<div class="rectangle4"></div>
+				</div>
+				<div class="group4copy3">
+					<div class="rectanglecopy3"></div>
+					<div class="rectangle4"></div>
+				</div>
+
+
+
+				<div class="indicator"><img class="oval" src="./near_files/near-oval@2x.png">
+					<!-- <img class="line5" src="./near_files/near-line-5@2x.png"> -->
+
+				</div>
+			</div>
+			<div class="group5" id=plantInicator style="display: none;">
+				<img class="oval2" src="./near_files/near-oval 1@2x.png">
+				<img class="ovalcopy" src="./near_files/near-oval-copy@2x.png"><img class="oval1" src="./near_files/near-oval 2@2x.png"></div>
+			<svg height="736px" width="414px" style="z-index: 0;position: absolute;">
+				<line id='line' x1="179.5" y1="202.5" x2="0" y2="0" style="display: none;stroke:white;stroke-width:2">
+					<!-- <animate attributeName="x2" from="50" to="200"  dur="2s" id='ani1'/> 
+							<animate attributeName="y2" from="50" to="200"  dur="2s" />  -->
+					<!-- <animate attributeName="x2"  to="400" dur=1s begin=0s id='anix'/> 
+							<animate attributeName="y2"  to="400" dur=1s begin=0s id='aniy'/>  -->
+
+				</line>
+			</svg>
+			<div class="tabcopy" style="z-index:1"><img class="rectangle1" src="./near_files/iphone-8-plus-rectangle 1.png"><img class="line" src="./near_files/iphone-8-plus-line.png"><img
+				 class="line2" src="./near_files/iphone-8-plus-line-2@2x.png"><img class="line4" src="./near_files/iphone-8-plus-line-4@2x.png"><img
+				 class="line3" src="./near_files/iphone-8-plus-line-3@2x.png">
+				<div class="monitor">Monitor</div>
+				<div class="tradecenter">Trade<br>Center</div>
+				<div class="ranking">Ranking</div>
+				<div class="myaccount">My<br>Account</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+		var urlParams = new URLSearchParams(window.location.search);
+		if (urlParams.has('plant')) {
+			plant = urlParams.get('plant')
+		} else {
+			plant = '1'
+		}
+		var position = ['', '']
+
+		function put(e) {
+
+			var data = JSON.stringify({
+				"type": "sequence",
+				"plant_id": plant,
+				"do": e,
+				"time": Date.now()
+			});
+			console.log('cliked');
+			var settings = {
+				"async": true,
+				"crossDomain": true,
+				"url": "http://hanmbp.local:5000/command",
+				"method": "PUT",
+				"headers": {
+					"content-type": "application/json"
+				},
+				"processData": false,
+
+				"data": data
+			}
+
+			$.ajax(settings).done(function (response) {
+				position = response['position']
+				var settings = {
+					"async": true,
+					"crossDomain": true,
+					"url": "http://hanmbp.local:5000/status",
+					"method": "GET",
+					"headers": {}
+				}
+
+				$.ajax(settings).done(function (response) {
+					resp = response['realtime'].splice(1)
+					console.log(resp)
+					$("#plantInicator").css('top', 197 + parseFloat(resp[1] - position[1]) * scaleFactor)
+					$("#plantInicator").css('left', 213 - parseFloat(resp[0] - position[0]) * scaleFactor)
+					$('#line').attr('x2', 213 - parseFloat(resp[0] - position[0]) * scaleFactor + 14)
+					$('#line').attr('y2', 197 + parseFloat(resp[1] - position[1]) * scaleFactor + 14)
+					$('#plantInicator').show()
+					$('#line').show()
+
+
+				});
+			});
+
+		}
+
+		lastTop = ''
+		lastLeft = ''
+		scaleFactor = 30
+
+		function updatePosition(resp) {
+			//console.log('updatind');
+
+			topOff = parseInt(resp[1] - position[1])
+			leftOff = parseInt(resp[0] - position[0])
+			if (topOff != lastTop || leftOff != lastLeft) {
+				lastTop = topOff
+				lastLeft = leftOff
+
+				console.log(topOff, leftOff);
+
+				$("#plantInicator").animate({
+					top: 197 + parseFloat(resp[1] - position[1]) * scaleFactor,
+					left: 213 - parseFloat(resp[0] - position[0]) * scaleFactor,
+				}, {
+					easing: 'linear',
+					duration: 200,
+					step: function (now, fx) {
+
+						if (fx.prop == 'left') {
+							$('#line')
+								.attr('x2', now + 14)
+
+						}
+						if (fx.prop == 'top') {
+
+							$('#line')
+								.attr('y2', now + 14)
+						}
+
+					}
+				});
+			}
+
+
+		}
+		isAlign = false
+		var aligning = updatePosition
+
+		function get(e) {
+			var settings = {
+				"async": true,
+				"crossDomain": true,
+				"url": "http://hanmbp.local:5000/status",
+				"method": "GET",
+				"headers": {}
+			}
+
+			$.ajax(settings).done(function (response) {
+
+				aligning(response['realtime'].splice(1))
+
+			});
+		}
+
+
+		$(document).ready(function () {
+
+			put('watch')
+			$('#video').on('canplay',function(){
+				$('#screenshot').fadeOut()
+			$('#blur').css('filter','blur(0px)')
+				
+			});
+			
+		
+
+			interval = setInterval(() => {
+				get()
+			}, 150);
+
+			$('.clickable').on('touchstart', function (e) {
+				$(this).addClass('tapped');
+				$(this).children('.rectangle2').addClass('tappedgray');
+				// clicked.
+				// clicked.addClass('tapped');
+				// var text = $(this).children('.apply');
+				// text.addClass('tapped');
+				// //setTimeout(function(){clicked.removeClass('tappedgray')},500);
+			});
+
+			$('.clickable').on('touchend', function (e) {
+				$(this).removeClass('tapped');
+				$(this).children('.rectangle2').removeClass('tappedgray');;
+				// clicked.
+				// clicked.removeClass('tapped');
+				// var text = $(this).children('.apply');
+				// text.removeClass('tapped');
+			});
+
+		});
+
+
+		video = $("#video").get(0);
+		var scale = 0.25;
+		var captureImage = function() {
+        var canvas = document.createElement("canvas");
+        canvas.width = video.videoWidth * scale;
+        canvas.height = video.videoHeight * scale;
+        canvas.getContext('2d')
+              .drawImage(video, 0, 0, canvas.width, canvas.height);
+ 
+        var img = document.createElement("img");
+        img.src = canvas.toDataURL();
+        $('body').prepend(img);
+    };
+
+	</script>
+
+
+</body>
+
+</html>

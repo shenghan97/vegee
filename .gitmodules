@@ -1,0 +1,3 @@
+[submodule "webrtc-streamer"]
+	path = webrtc-streamer
+	url = https://github.com/mpromonet/webrtc-streamer

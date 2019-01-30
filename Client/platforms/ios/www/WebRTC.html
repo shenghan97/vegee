@@ -1,0 +1,29 @@
+<html><head>
+	<link rel="stylesheet" type="text/css" href="WebRTC Streamer_files/styles.css">
+	<script src="WebRTC Streamer_files/request.min.js"></script>
+	<script src="WebRTC Streamer_files/adapter.min.js"></script>
+	<script src="WebRTC Streamer_files/webrtcstreamer.json"></script>
+	<script src="WebRTC Streamer_files/webrtcstreamer.js"></script>
+	<script>        
+
+			var webRtcServer      = new WebRtcStreamer("video", "http://raspberrypi.local:8000");
+			var url = { video:"mmalservice161", audio:"" };  
+			var options = webrtcConfig.options;
+
+			window.onload         = function() {  
+				document.getElementById("title").innerHTML=url.video; 
+				console.log(url.video);
+				webRtcServer.connect(url.video,url.audio,options);
+					
+			}
+			
+		</script>
+	</head>
+	<body>
+	  <h2 id="title"></h2>
+	  <video id="video" src="" playsinline="true" style="opacity: 0.5;"></video>
+	  <footer id="footer"><p><a href="https://github.com/mpromonet/webrtc-streamer">WebRTC-Streamer</a> v0.1.1-dirty</p></footer>
+	
+	
+	
+	</body></html>

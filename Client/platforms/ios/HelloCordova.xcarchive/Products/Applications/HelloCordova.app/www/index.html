@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png">
+	<meta name="viewport" content="width=414px, user-scalable=no, viewport-fit=cover" />
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="index.css">
+	<meta name="author" content="Launchpad by Anima">
+</head>
+<script src="js/index.js"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
+<script src="./jquery-3.3.1.min.js"></script>
+
+
+
+<body style="margin: 0;
+		background: rgba(255, 255, 255, 1.0);" data-gr-c-s-loaded="true">
+	<div style="width: 414px; height: 100%; position:relative; margin:auto;">
+		<div class="container">
+			<img class="rectangle" src="./img/index.jpg">
+			<div class="rectangle1"></div>
+			<div class="smallcard clickable" onclick="try{slide('near.html?plant=3')}catch(e){window.location ='near.html?plant=3'}">
+				<div class="rectanglecopy2"></div>
+				<div class="a78">78%</div>
+				<div class="n12">N12</div>
+				<img class="path" src="./iphone8plus_files/iphone-8-plus-path@2x.png">
+				<img class="pathcopy" src="./iphone8plus_files/iphone-8-plus-path-copy
+							1@2x.png">
+				<div class="rectangle2"></div>
+			</div>
+			<div class="smallcard1 clickable" onclick="try{slide('near.html?plant=1')}catch(e){window.location ='near.html?plant=1'}">
+				<div class="rectanglecopy2"></div>
+				<div class="a78">78%</div>
+				<div class="n12">N12</div><img class="path" src="./iphone8plus_files/iphone-8-plus-path@2x.png">
+				<imgclass="pathcopy" src="./iphone8plus_files/iphone-8-plus-path-copy
+							1@2x.png">
+					<div class="rectangle2"></div>
+			</div>
+			<div class="smallcard2 clickable" onclick="try{slide('near.html?plant=4')}catch(e){window.location ='near.html?plant=4'}">
+				<div class="rectanglecopy2"></div>
+				<div class="a78">78%</div>
+				<div class="n12">N12</div><img class="path" src="./iphone8plus_files/iphone-8-plus-path@2x.png"><img class="pathcopy"
+				 src="./iphone8plus_files/iphone-8-plus-path-copy
+							1@2x.png">
+				<div class="rectangle2"></div>
+			</div><img class="rectanglecopy" src="./iphone8plus_files/iphone-8-plus-rectangle-copy.png">
+			<div class="tab"><img class="rectangle2" src="./iphone8plus_files/iphone-8-plus-rectangle 1.png">
+				<img class="line" src="./iphone8plus_files/iphone-8-plus-line.png">
+				<img class="line2" src="./iphone8plus_files/iphone-8-plus-line-2@2x.png">
+				<img class="line4" src="./iphone8plus_files/iphone-8-plus-line-4@2x.png"><img class="line3" src="./iphone8plus_files/iphone-8-plus-line-3@2x.png">
+				<div class="monitor">Monitor</div>
+				<div class="tradecenter">Trade<br>Center</div>
+				<div class="ranking">Ranking</div>
+				<div class="myaccount">My<br>Account</div>
+			</div>
+			<div>
+				<div class="card clickable" onclick="try{slide('near.html?plant=2')}catch(e){window.location ='near.html?plant=2'}">
+					<div class="cardbackgournd"></div>
+					<div class="rectangle2"></div>
+					<div class="banner">
+						<div class="rectangle3"></div>
+						<div class="a93">93%</div>
+						<div class="maturity">Maturity</div>
+					</div>
+					<div class="loremipsum">Lorem ipsum dolor sit amet, consectetur
+						adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. </div>
+					<div class="n03">N03</div>
+					<div class="details">
+						<div class="details1">Details</div><img class="triangle" src="./iphone8plus_files/iphone-8-plus-triangle@2x.png">
+					</div><img class="connerr" src="./iphone8plus_files/iphone-8-plus-connerr@2x.png">
+					
+				</div>
+			</div>
+
+			<div class="barsnavigationnavigationbar">
+				<div class="right"><img class="right1" src="./iphone8plus_files/iphone-8-plus-right@2x.png"></div>
+				<div class="center">
+					<div class="titlelabel">Monitor</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+		function slide(href) {
+				console.log(href);
+				var options = {
+				  "direction" : "left",
+				  "href" : href
+				};
+				window.plugins.nativepagetransitions.slide(
+				  options,
+				  function (msg) {alert("SUCCESS: " + JSON.stringify(msg))},
+				  function (msg) {alert("ERROR: "   + JSON.stringify(msg))}
+				);
+			}
+			$(document).ready(function(){
+	
+				$('.clickable').on('touchstart', function(e) {
+					var clicked =$(this);
+					clicked.addClass('tapped');
+					console.log('toggled');
+					setTimeout(function(){clicked.removeClass('tapped')},500);
+				});				
+	
+			});
+	
+	</script>
+	
+
+</body>
+
+</html>
