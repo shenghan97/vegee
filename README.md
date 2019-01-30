@@ -31,7 +31,7 @@ A simple prototype build with Cordova
 2. Control the farm robot
 
 
-## Miscellaneous
+## Tools (miscellaneou)
 ### `key-control.py` control the robot with keybords (for debugging)
 ### `serial-control.py` a simple serial terminal interface for grbl
 
