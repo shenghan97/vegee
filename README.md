@@ -32,8 +32,8 @@ A simple prototype build with Cordova
 
 
 ## Miscellaneous
-## `key-control.py` control the robot with keybords (for debugging)
-## `serial-control.py` a simple serial terminal interface for grbl
+### `key-control.py` control the robot with keybords (for debugging)
+### `serial-control.py` a simple serial terminal interface for grbl
 
 ## Portfolio page
 [https://shenghan.site/vegee]
