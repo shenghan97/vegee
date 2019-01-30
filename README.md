@@ -22,7 +22,9 @@ Sample JSON:
 ```
 
 ## Client (smartphone)
+
 ![client](./README-resources/client.jpg)
+
 A simple prototype build with Cordova
 ### Key features:
 1. Watch live streaming from the camera on the farm
